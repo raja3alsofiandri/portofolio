@@ -1,0 +1,44 @@
+{
+  "responses": {
+    "salam": [
+      "Halo! Senang bertemu denganmu. Saya asisten virtual R. Tri Alsofiandri. Ada yang bisa saya bantu? 👋",
+      "Hai! Selamat datang di portofolio R. Tri Alsofiandri. Mau tahu lebih banyak tentang proyek, skill, atau kuliner favorit saya? 🚀"
+    ],
+    "profil": [
+      "R. Tri Alsofiandri adalah mahasiswa Informatika di Universitas Riau Indonesia. Ketertarikannya cukup luas, mulai dari pengembangan perangkat lunak (Web & Android Development), pengolahan dan analisis data, hingga manajemen bisnis. Baginya, inti dari seorang programmer adalah ketajaman logika dan kemampuan problem-solving."
+    ],
+    "skills": [
+      "Berikut adalah keahlian yang dimiliki R. Tri Alsofiandri:<br><br>• <b>Bahasa Pemrograman:</b> Javascript, PHP, Java, Python, dan C++.<br>• <b>Framework:</b> CodeIgniter 4 dan Bootstrap.<br>• <b>Data Science & Tools:</b> Anaconda, Jupyter Notebook, dan Python.<br>• <b>Database:</b> MySQL dan Firebase.<br>• <b>Tools Lain:</b> VS Code, Android Studio, Git, GitHub, XAMPP, dan Figma."
+    ],
+    "proyek": [
+      "Berikut beberapa proyek yang telah dan sedang dikembangkan:<br><br>1. <b>Website Sistem Kasir:</b> Berbasis PHP & MySQL (Selesai).<br>2. <b>Aplikasi Mobile Kasir:</b> Versi Android/mobile kasir (Selesai).<br>3. <b>Aplikasi Pendidikan:</b> Berbasis Java (Sedang Dikerjakan).<br>4. <b>Aplikasi Puskesmas:</b> Berbasis Java (Rencana Selanjutnya)."
+    ],
+    "industrial": [
+      "R. Tri Alsofiandri telah melakukan Industrial Visit ke 3 instansi di Batam pada Mei 2026:<br><br>• <b>PT Sumitomo Wiring System (18 Mei 2026):</b> Manufacturing wiring harness otomotif — mempelajari Quality Control, Lean Manufacturing, dan K3.<br>• <b>PT Pertamina Gas Negara / PGN Batam (19 Mei 2026):</b> Distribusi dan infrastruktur gas bumi — mempelajari sistem monitoring jaringan gas.<br>• <b>RS Awal Bros Batam (19 Mei 2026):</b> Pelayanan kesehatan — mempelajari Hospital Information System dan pengelolaan rekam medis digital."
+    ],
+    "bisnis": [
+      "Selain aktif di bidang teknologi, R. Tri Alsofiandri juga menjalankan wirausaha mandiri sejak 2023. Pengalaman ini melatih ketajaman manajemen finansial, strategi pelayanan, serta pemahaman langsung terhadap kebutuhan pasar dan efisiensi kerja."
+    ],
+    "cv": [
+      "Tentu! Kamu bisa langsung mengunduh berkas CV terbaru melalui tautan berikut: <a href='CV.pdf' download><b>Download CV.pdf</b></a> 📄."
+    ],
+    "warna": [
+      "R. Tri Alsofiandri suka banget sama warna <b>Putih</b>. Simpel, bersih, dan estetik!"
+    ],
+    "musik": [
+      "Bagi dia, musik itu segalanya. 'Gak idup kalau gak ada musik!' 🎧<br>Genre favoritnya Pop. Kalau luar negeri suka Taylor Swift, tapi kalau disuruh pilih satu band Indonesia, jawabannya mutlak <b>Dewa 19</b>!<br><br><i>*Psst, kalau kamu nanya soal lagu 'Titik Nadir', dia bakal langsung ngegalau...*</i>"
+    ],
+    "status": [
+      "Kepo bangettttt....."
+    ],
+    "kuliner": [
+      "Ini dia profil kuliner R. Tri Alsofiandri:<br><br>🧋 <b>Minuman Fav:</b> Taro, dan suka yang dingin + masam.<br>🌶️ <b>Jajanan:</b> Suka banget yang pedas-pedas.<br>❌ <b>Alergi:</b> Sebenarnya dia suka udang, ayam, telur, dan mie, TAPI dia alergi jadi ga bisa makan itu semua. Makanya mentok-mentok makannya ikan ber-es hmmm."
+    ],
+    "kontak": [
+      "Mohon maaf, R. Tri Alsofiandri tidak mencantumkan nomor WhatsApp (WA) di sini demi privasi. Silakan hubungi via media lain ya:<br><br>• <b>Email:</b> <a href='mailto:rajaalsofiandri@gmail.com'>rajaalsofiandri@gmail.com</a><br>• <b>GitHub:</b> <a href='https://github.com/raja3alsofiandri' target='_blank'>github.com/raja3alsofiandri</a><br>• <b>Instagram:</b> <a href='https://instagram.com/raja3alsofiandri' target='_blank'>@raja3alsofiandri</a>"
+    ],
+    "fallback": [
+      "Maaf, saya belum paham maksud dari pertanyaan tersebut. Coba ketik kata kunci ringkas seperti 'proyek', 'skill', 'industrial visit', 'bisnis', atau 'kontak' ya! 😊"
+    ]
+  }
+}

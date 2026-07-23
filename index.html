@@ -1,0 +1,666 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap">
+<link rel="stylesheet" href="style.css">
+    <title>RTA | Portfolio</title>
+    <meta name="description" content="Portfolio R. Tri Alsofiandri - Informatics Student, Web Developer, Android Developer">
+</head>
+<body>
+
+<!-- ============================================================
+     DAFTAR ISI HTML (TABLE OF CONTENTS)
+     ============================================================
+     1. Header & Navbar (#nav-overlay, header)
+     2. Home / Hero (.home)
+     3. About (#about)
+     4. Journey (#journey)
+     5. Education (#education)
+     6. Organization (.organization-section)
+     7. Achievement & Certificate (.achievement-section, #lightbox)
+     8. Skills (#skills)
+     9. Projects (#projects)
+     10. Industrial Visit (#industrial-visit)
+     11. Contact (#contact)
+     12. Chatbot Widget (#chatbot-launcher, #chatbot-window)
+     ============================================================ -->
+
+<!-- ============================================================
+     1. HEADER & NAVBAR
+     ============================================================ -->
+<div id="nav-overlay"></div>
+
+<header>
+    <a href="#home" class="logo" id="logo-btn">RTA.</a>
+
+    <nav id="navbar">
+        <a href="#home" data-lang-en="Home" data-lang-id="Home">Home</a>
+        <a href="#about" data-lang-en="About" data-lang-id="Tentang">About</a>
+        <a href="#journey" data-lang-en="Journey" data-lang-id="Perjalanan">Journey</a>
+        <a href="#skills" data-lang-en="Skills" data-lang-id="Keahlian">Skills</a>
+        <a href="#projects" data-lang-en="Projects" data-lang-id="Proyek">Projects</a>
+        <a href="#industrial-visit" data-lang-en="Industrial Visit" data-lang-id="Kunjungan Industri">Industrial Visit</a>
+        <a href="#contact" data-lang-en="Contact" data-lang-id="Kontak">Contact</a>
+    </nav>
+
+    <div class="header-actions">
+        <i class="fa-solid fa-moon" id="theme-toggle"></i>
+        <button id="lang-toggle">
+            <span class="lang-icon">🇮🇩</span>
+            <span class="lang-text">ID</span>
+        </button>
+    </div>
+</header>
+
+    <!-- ============================================================
+         2. HOME / HERO
+         ============================================================ -->
+    <section class="home" id="home">
+        <div class="home-img" data-aos="fade-left" data-aos-duration="1200">
+    <img id="home-profile-img" src="images/profile/main-dark.png" alt="R. Tri Alsofiandri">
+</div>
+        <div class="home-content" data-aos="fade-right" data-aos-duration="1200">
+           <h1>
+               <span data-lang-en="Hi, I Am" data-lang-id="Hi, Saya">Hi, Saya</span>
+                <span>R. Tri Alsofiandri</span>
+
+        </h1>
+            <h3 class="typing-text">
+    <strong style="font-weight: inherit;" data-lang-id="Saya Adalah " data-lang-en="I Am a ">Saya Adalah </strong>
+    <span></span>
+</h3>
+                        <p data-lang-en="I am an Informatics student at Universitas Riau, Indonesia, with an interest in Web Development, Android Development, and Software Engineering. I enjoy creating modern, responsive, and user-friendly applications while continuously improving my programming and problem-solving skills through real-world projects."
+               data-lang-id="Saya adalah mahasiswa Informatika di Universitas Riau Indonesia dengan minat pada Pengembangan Web, Pengembangan Android, dan Rekayasa Perangkat Lunak. Saya senang membuat aplikasi modern, responsif, dan ramah pengguna sambil terus meningkatkan keterampilan pemrograman dan pemecahan masalah saya melalui proyek-proyek dunia nyata.">
+                Saya adalah mahasiswa Informatika di Universitas Riau Indonesia dengan minat pada Pengembangan Web, Pengembangan Android, dan Rekayasa Perangkat Lunak. Saya senang membuat aplikasi modern, responsif, dan ramah pengguna sambil terus meningkatkan keterampilan pemrograman dan pemecahan masalah saya melalui proyek-proyek dunia nyata.
+            </p>
+                        <div class="social-icons">
+                <a href="https://github.com/raja3alsofiandri" target="_blank"><i class="fa-brands fa-github"></i></a>
+                <a href="https://instagram.com/raja3alsofiandri" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://linkedin.com/in/raja3alsofiandri" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="mailto:rajaalsofiandri@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+            </div>
+            <a href="https://drive.google.com/file/d/1M54nhG1yRd2cBkL9pHm-4plRiZ6PrYE-/view?usp=drivesdk" target="_blank" class="btn">View CV</a>
+        </div>
+    </section>
+
+        <!-- ============================================================
+         3. ABOUT
+         ============================================================ -->
+    <section id="about">
+        <h2 data-aos="zoom-in" data-lang-en="About Me" data-lang-id="Tentang Saya">Tentang Saya</h2>
+
+        <div class="about-container">
+            <div class="card-title" data-lang-id="Profil" data-lang-en="Profile">Profil</div>
+
+            <div class="about-top">
+                <div class="about-content">
+                    <p data-lang-id="Halo! Saya R. Tri Alsofiandri, mahasiswa Program Studi Informatika di Universitas Riau Indonesia. Saya memiliki ketertarikan yang luas, tidak hanya mendalami dunia teknologi dan pengembangan perangkat lunak, tetapi juga merambah ke ranah pengolahan data serta manajemen bisnis."
+                       data-lang-en="Hello! I am R. Tri Alsofiandri, a student of the Informatics Study Program at Universitas Riau, Indonesia. I have broad interests, ranging deeply into technology and software development, as well as data processing and business management.">Halo! Saya <strong>R. Tri Alsofiandri</strong>, mahasiswa Program Studi Informatika di Universitas Riau Indonesia. Saya memiliki ketertarikan yang luas, tidak hanya mendalami dunia teknologi dan pengembangan perangkat lunak, tetapi juga merambah ke ranah pengolahan data serta manajemen bisnis[cite: 1].</p>
+                    
+                    <p data-lang-id="Bagi saya, inti utama dari seorang programmer di berbagai bidang pekerjaan adalah ketajaman logika dan kemampuan problem-solving. Melalui pengasahan logika yang konsisten, aktivitas pengolahan dan analisis data, serta latar belakang wirausaha mandiri, saya terbiasa membangun sistem yang dirancang untuk mempercepat dan mempermudah berbagai aspek pekerjaan manusia."
+                       data-lang-en="For me, the core of a programmer across any field lies in sharp logic and problem-solving skills. Through consistent logical training, data processing and analysis activities, and an entrepreneurial background, I am accustomed to building systems designed to accelerate and simplify various aspects of human work.">Bagi saya, inti utama dari seorang programmer di berbagai bidang pekerjaan adalah ketajaman logika dan kemampuan <strong>problem-solving</strong>[cite: 1]. Melalui pengasahan logika yang konsisten, aktivitas pengolahan dan analisis data, serta latar belakang wirausaha mandiri, saya terbiasa membangun sistem yang dirancang untuk mempercepat dan mempermudah berbagai aspek pekerjaan manusia[cite: 1].</p>
+                    
+                    <p data-lang-id="Dengan memadukan kemampuan teknis IT, analisis data, dan kepekaan bisnis, saya berfokus untuk terus berkembang dan memberikan kontribusi nyata lewat solusi digital yang efisien."
+                       data-lang-en="By combining IT technical skills, data analysis, and business acumen, I am focused on continuous growth and delivering real contributions through efficient digital solutions.">Dengan memadukan kemampuan teknis IT, analisis data, dan kepekaan bisnis, saya berfokus untuk terus berkembang dan memberikan kontribusi nyata lewat solusi digital yang efisien[cite: 1].</p>
+                </div>
+
+                <div class="about-img">
+                    <img src="images/profile/about.png" alt="R. Tri Alsofiandri">
+                </div>
+            </div>
+
+            <div class="about-hobbies">
+                <h3
+                    data-lang-id="🎯 Minat & Hobi"
+                    data-lang-en="🎯 Interests & Hobbies">
+                    🎯 Minat & Hobi
+                </h3>
+
+                <div class="hobby-list">
+                    <span data-lang-id="🏸 Bulu Tangkis" data-lang-en="🏸 Badminton">🏸 Badminton</span>
+                    <span data-lang-id="🚴 Bersepeda" data-lang-en="🚴 Cycling">🚴 Cycling</span>
+                    <span data-lang-id="🏃 Lari Maraton" data-lang-en="🏃 Marathon">🏃 Marathon</span>
+                    <span data-lang-id="🎮 Bermain Game" data-lang-en="🎮 Gaming">🎮 Gaming</span>
+                    <span data-lang-id="💻 Mengeksplorasi Teknologi" data-lang-en="💻 Exploring Technology">💻 Exploring Technology</span>
+                    <span data-lang-id="📚 Membaca" data-lang-en="📚 Reading">📚 Reading</span>
+                    <span data-lang-id="🎌 Anime" data-lang-en="🎌 Anime">🎌 Anime</span>
+                    <span data-lang-id="🎬 Film" data-lang-en="🎬 Movies">🎬 Movies</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================================
+         4. JOURNEY
+         ============================================================ -->
+    <section id="journey" class="journey-section">
+
+        <h2 data-aos="zoom-in" data-lang-en="My Journey" data-lang-id="Perjalanan Saya">Perjalanan Saya</h2>
+
+        <div class="journey-container">
+            <div class="card-title" data-lang-id="Pengalaman" data-lang-en="Experience">
+                Experience
+            </div>
+
+            <div class="journey-top">
+
+                <div class="journey-content">
+                    <p data-lang-id="Perjalanan saya dibentuk dari perpaduan antara dunia akademik Informatika, eksplorasi pengolahan dan analisis data, serta pengalaman praktis di sektor bisnis. Pendekatan lintas disiplin ini memberi saya sudut pandang luas bahwa teknologi hadir untuk menyelesaikan masalah nyata dan mengoptimalkan efisiensi kerja."
+                       data-lang-en="My journey is shaped by a blend of academic Informatics, data processing and analysis exploration, and practical business experience. This cross-disciplinary approach gives me a broad perspective that technology exists to solve real-world problems and optimize work efficiency.">
+                        Perjalanan saya dibentuk dari perpaduan antara dunia akademik Informatika, eksplorasi pengolahan dan analisis data, serta pengalaman praktis di sektor bisnis. Pendekatan lintas disiplin ini memberi saya sudut pandang luas bahwa teknologi hadir untuk menyelesaikan masalah nyata dan mengoptimalkan efisiensi kerja[cite: 1].
+                    </p>
+                </div>
+
+                <div class="journey-img">
+                    <img src="images/profile/profil.png" alt="Experience">
+                    <p class="journey-motto">"Think. Analyze. Solve. Deliver Value."</p>
+                </div>
+
+            </div>
+
+            <div class="workplaces-box">
+
+                <h4>
+                    <i class="fa-solid fa-briefcase" style="margin-right: 8px;"></i>
+                    <span data-lang-id="Pengalaman & Proyek Lintas Sektor" data-lang-en="Cross-Sector Experience & Projects">Pengalaman & Proyek Lintas Sektor</span>
+                </h4>
+
+                <ul class="workplaces-list">
+
+                    <li>
+                        <strong data-lang-id="Mahasiswa Informatika - Universitas Riau" data-lang-en="Informatics Student - Universitas Riau">Mahasiswa Informatika - Universitas Riau</strong>
+                        <span class="work-period" data-lang-id="2024 - Sekarang" data-lang-en="2024 - Present">2024 - Sekarang</span>
+                        <p data-lang-id="Mengembangkan logika pemrograman, eksplorasi pengolahan dan analisis data, serta merancang proyek aplikasi berbasis Web dan Android."
+                           data-lang-en="Developing programming logic, exploring data processing and analysis, and designing Web and Android-based application projects.">Mengembangkan logika pemrograman, eksplorasi pengolahan dan analisis data, serta merancang proyek aplikasi berbasis Web dan Android[cite: 1].</p>
+                    </li>
+
+                    <li>
+                        <strong data-lang-id="Praktisi Wirausaha Mandiri & Manajemen Bisnis" data-lang-en="Independent Entrepreneur & Business Management Practitioner">Praktisi Wirausaha Mandiri & Manajemen Bisnis</strong>
+                        <span class="work-period" data-lang-id="2023 - Sekarang" data-lang-en="2023 - Present">2023 - Sekarang</span>
+                        <p data-lang-id="Mengelola operasional bisnis mandiri yang melatih ketajaman manajemen finansial, strategi pelayanan, serta pemahaman langsung terhadap kebutuhan pasar dan efisiensi kerja."
+                           data-lang-en="Managing independent business operations that train financial management acumen, service strategy, and direct understanding of market needs and work efficiency.">Mengelola operasional bisnis mandiri yang melatih ketajaman manajemen finansial, strategi pelayanan, serta pemahaman langsung terhadap kebutuhan pasar dan efisiensi kerja[cite: 1].</p>
+                    </li>
+
+                    <li>
+                        <strong data-lang-id="Junior Developer & Problem Solver" data-lang-en="Junior Developer & Problem Solver">Junior Developer & Problem Solver</strong>
+                        <span class="work-period" data-lang-id="2024 - 2026" data-lang-en="2024 - 2026">2024 - 2026</span>
+                        <p data-lang-id="Fokus mengasah kemampuan problem-solving dalam mengeksekusi sistem informasi (Sistem Kasir PHP & MySQL) serta purwarupa aplikasi berbasis Java untuk membantu mempercepat pekerjaan."
+                           data-lang-en="Focusing on honing problem-solving skills in executing information systems (PHP & MySQL Cashier System) and Java-based application prototypes to help accelerate work tasks.">Fokus mengasah kemampuan problem-solving dalam mengeksekusi sistem informasi (Sistem Kasir PHP & MySQL) serta purwarupa aplikasi berbasis Java untuk membantu mempercepat pekerjaan[cite: 1].</p>
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ============================================================
+         5. EDUCATION
+         ============================================================ -->
+    <section id="education" class="education-section">
+        <h2 data-aos="zoom-in" data-lang-en="Education" data-lang-id="Pendidikan">Pendidikan</h2>
+
+        <div class="education-container" data-aos="fade-up">
+            <div class="education-img">
+                <img src="images/edu/unrida.png" alt="Education">
+            </div>
+            <div class="education-content">
+                <p class="univ-title">Universitas Riau Indonesia</p>
+                <p data-lang-id="S1 - Program Studi Informatika"
+                   data-lang-en="Informatics Study Program">S1 - Program Studi Informatika</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================================
+         6. ORGANIZATION
+         ============================================================ -->
+    <section class="organization-section" data-aos="fade-up">
+        <h2 data-lang-en="Organization" data-lang-id="Organisasi">Organisasi</h2>
+        <div class="org-container">
+            <ul class="org-list">
+                <li>
+                    <i class="fa-solid fa-users org-icon"></i>
+                    <div>
+                        <h4 data-lang-id="Anggota Komunitas IT Kampus" data-lang-en="Member of Campus IT Community">Anggota Komunitas IT Kampus</h4>
+                        <p class="org-meta" data-lang-id="2024 - Sekarang | Divisi Web Development" data-lang-en="2024 - Present | Web Development Division">2024 - Sekarang | Divisi Web Development</p>
+                        <p data-lang-id="Berdiskusi dan berkolaborasi dalam merancang proyek aplikasi skala mahasiswa."
+                           data-lang-en="Discussing and collaborating on designing student-scale application projects.">Berdiskusi dan berkolaborasi dalam merancang proyek aplikasi skala mahasiswa.</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- ============================================================
+         7. ACHIEVEMENT & CERTIFICATE
+         ============================================================ -->
+    <section class="achievement-section" data-aos="fade-up">
+        <h2 data-lang-en="Achievements & Certificates" data-lang-id="Prestasi & Sertifikat">Prestasi & Sertifikat</h2>
+        <div class="marquee-wrapper">
+            <div class="marquee-track">
+
+                <div class="achieve-card" onclick="openCertificate(this.querySelector('img').src)">
+                    <img src="images/cert/sentik-inhil.png" alt="Sertifikat">
+                    <h3>SENTIK</h3>
+                    <p data-lang-id="Dilaksanakan di Indragiri Hulu, fokus pada pengembangan teknologi lokal."
+                       data-lang-en="Held in Indragiri Hulu, focused on local technology development.">Dilaksanakan di Indragiri Hulu, fokus pada pengembangan teknologi lokal.</p>
+                </div>
+                <div class="achieve-card" onclick="openCertificate(this.querySelector('img').src)">
+                    <img src="images/cert/sentik-inhil.png" alt="Sertifikat">
+                    <h3>SENTIK</h3>
+                    <p data-lang-id="Dilaksanakan di Indragiri Hulu, fokus pada pengembangan teknologi lokal."
+                       data-lang-en="Held in Indragiri Hulu, focused on local technology development.">Dilaksanakan di Indragiri Hulu, fokus pada pengembangan teknologi lokal.</p>
+                </div>
+
+                <div class="achieve-card" onclick="openCertificate(this.querySelector('img').src)">
+                    <img src="images/cert/sentik-inhil.png" alt="Sertifikat">
+                    <h3>SENTIK</h3>
+                    <p data-lang-id="Dilaksanakan di Indragiri Hulu, fokus pada pengembangan teknologi lokal."
+                       data-lang-en="Held in Indragiri Hulu, focused on local technology development.">Dilaksanakan di Indragiri Hulu, fokus pada pengembangan teknologi lokal.</p>
+                </div>
+                <div class="achieve-card" onclick="openCertificate(this.querySelector('img').src)">
+                    <img src="images/cert/sentik-inhil.png" alt="Sertifikat">
+                    <h3>SENTIK</h3>
+                    <p data-lang-id="Dilaksanakan di Indragiri Hulu, fokus pada pengembangan teknologi lokal."
+                       data-lang-en="Held in Indragiri Hulu, focused on local technology development.">Dilaksanakan di Indragiri Hulu, fokus pada pengembangan teknologi lokal.</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <div id="lightbox" onclick="closeLightbox()">
+        <span id="close" onclick="closeLightbox()">&times;</span>
+        <img id="lightbox-img" src="" alt="Sertifikat Preview">
+    </div>
+
+    <!-- ============================================================
+         8. SKILLS
+         ============================================================ -->
+    <section id="skills">
+        <h2 data-aos="fade-up" data-lang-en="Skills" data-lang-id="Keahlian">Keahlian</h2>
+        <div class="skill-container">
+
+            <div data-aos="fade-up" data-aos-delay="300">
+                <div class="skill-card">
+                    <h3 data-lang-en="Markup & Styling" data-lang-id="Penanda & Tata Letak">Penanda & Tata Letak</h3>
+                    <ul class="skill-list">
+                        <li><img src="images/skills/ms/html5.png"><span>HTML5</span></li>
+                        <li><img src="images/skills/ms/css3.png"><span>CSS3</span></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div data-aos="fade-up">
+                <div class="skill-card">
+                    <h3 data-lang-en="Programming Language" data-lang-id="Bahasa Pemrograman">Bahasa Pemrograman</h3>
+                    <ul class="skill-list">
+                        <li><img src="images/skills/pl/javascript.png" alt="JAVASCRIPT"> <span>Javascript</span></li>
+                        <li><img src="images/skills/pl/php.png" alt="PHP"> <span>PHP</span></li>
+                        <li><img src="images/skills/pl/java.png" alt="JAVA"> <span>Java</span></li>
+                        <li><img src="images/skills/pl/python.png" alt="PYTHON"> <span>Python</span></li>
+                        <li><img src="images/skills/pl/c++.png" alt="C++"> <span>C++</span></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div data-aos="fade-up" data-aos-delay="100">
+                <div class="skill-card">
+                    <h3 data-lang-en="Framework" data-lang-id="Kerangka Kerja">Framework</h3>
+                    <ul class="skill-list">
+                        <li><img src="images/skills/fw/ci4.png" alt="HTML"> <span>CodeIgniter 4</span></li>
+                        <li><img src="images/skills/fw/bootstrap.png" alt="HTML"> <span>Bootstrap</span></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div data-aos="fade-up" data-aos-delay="200">
+                <div class="skill-card">
+                    <h3 data-lang-en="Development Tools" data-lang-id="Alat Pengembangan">Alat Pengembangan</h3>
+                    <ul class="skill-list">
+                        <li><img src="images/skills/tools/vscode.png"><span>Visual Studio Code</span></li>
+                        <li><img src="images/skills/tools/android-studio.png"><span>Android Studio</span></li>
+                        <li><img src="images/skills/tools/git.png"><span>Git</span></li>
+                        <li><img src="images/skills/tools/github.png"><span>GitHub</span></li>
+                        <li><img src="images/skills/tools/xampp.png"><span>XAMPP</span></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div data-aos="fade-up" data-aos-delay="300">
+                <div class="skill-card">
+                    <h3 data-lang-en="UI/UIX Tools" data-lang-id="Alat UI/UX">Alat UI/UX</h3>
+                    <ul class="skill-list">
+                        <li><img src="images/skills/uiux/figma.png"><span>Figma</span></li>
+                        <li><img src="images/skills/uiux/balsamiq.png"><span>Balsamiq</span></li>
+                    </ul>
+                </div>
+            </div>
+            <div data-aos="fade-up" data-aos-delay="300">
+                <div class="skill-card">
+                    <h3 data-lang-en="Design Tools" data-lang-id="Alat Desain">Alat Desain</h3>
+                    <ul class="skill-list">
+                        <li><img src="images/skills/dt/adobe photoshop.png"><span>Adobe Photoshop</span></li>
+                        <li><img src="images/skills/dt/adobe illustrator.png"><span>Adobe Illustrator</span></li>
+                        <li><img src="images/skills/dt/canva.png"><span>Canva</span></li>
+                    </ul>
+                </div>
+            </div>
+            <div data-aos="fade-up" data-aos-delay="300">
+                <div class="skill-card">
+                    <h3 data-lang-en="Database" data-lang-id="Basis Data">Basis Data</h3>
+                    <ul class="skill-list">
+                        <li><img src="images/skills/database/mysql.png"><span>MySQL</span></li>
+                        <li><img src="images/skills/database/firebase.png"><span>Firebase</span></li>
+                    </ul>
+                </div>
+            </div>
+            <div data-aos="fade-up" data-aos-delay="300">
+                <div class="skill-card">
+                    <h3 data-lang-en="Data Science & Tools" data-lang-id="Analisis Data & Alat">Analisis Data & Alat</h3>
+                    <ul class="skill-list">
+                        <li><img src="images/skills/ds/anaconda.png" alt="Anaconda"> <span>Anaconda</span></li>
+                        <li><img src="images/skills/ds/jupyter notebook.png" alt="Jupyter Notebook"> <span>Jupyter Notebook</span></li>
+                        <li><img src="images/skills/pl/python.png" alt="Python"> <span>Python</span></li>
+                    </ul>
+                </div>
+            </div>
+<div data-aos="fade-up" data-aos-delay="400" class="language-row">
+
+    <div class="skill-card skill-card-horizontal office-card">
+
+        <h3 data-lang-en="Office & Productivity"
+            data-lang-id="Perangkat Perkantoran">
+            Perangkat Perkantoran
+        </h3>
+
+        <ul class="custom-office-row">
+
+            <li>
+                <img src="images/skills/office/word.png" alt="Microsoft Word">
+                <span>Word</span>
+            </li>
+
+            <li>
+                <img src="images/skills/office/excel.png" alt="Microsoft Excel">
+                <span>Excel</span>
+            </li>
+
+            <li>
+                <img src="images/skills/office/ppt.png" alt="Microsoft PowerPoint">
+                <span>PowerPoint</span>
+            </li>
+
+            <li>
+                <img src="images/skills/office/docs.png" alt="Google Docs">
+                <span>Docs</span>
+            </li>
+
+            <li>
+                <img src="images/skills/office/sheet.png" alt="Google Sheets">
+                <span>Sheets</span>
+            </li>
+
+        </ul>
+
+    </div>
+
+</div>
+
+            <div data-aos="fade-up" data-aos-delay="400" class="language-row">
+                <div class="skill-card language-skills-container">
+                    <h3 data-lang-en="Language Skills" data-lang-id="Kemampuan Bahasa">Kemampuan Bahasa</h3>
+
+                    <div class="lang-box">
+                        <div class="lang-info">
+                            <span>Bahasa Indonesia</span>
+                            <span data-lang-en="Native" data-lang-id="Bahasa Ibu">Bahasa Ibu</span>
+                        </div>
+                        <div class="lang-bar">
+                            <div class="lang-progress"></div>
+                        </div>
+                        <p class="lang-desc" data-lang-id="Fasih karena merupakan bahasa utama dan bahasa ibu (Native) yang digunakan sehari-hari."
+                           data-lang-en="Fluent, as it is my primary and native language used every day.">Fasih karena merupakan bahasa utama dan bahasa ibu (Native) yang digunakan sehari-hari.</p>
+                    </div>
+
+                    <div class="lang-box">
+                        <div class="lang-info">
+                            <span data-lang-en="English" data-lang-id="Bahasa Inggris">Bahasa Inggris</span>
+                            <span data-lang-en="Conversational / Technical" data-lang-id="Percakapan / Teknis">Percakapan / Teknis</span>
+                        </div>
+                        <div class="lang-bar">
+                            <div class="lang-progress"></div>
+                        </div>
+                        <p class="lang-desc" data-lang-id="Cukup mahir dan mampu memahami percakapan serta dokumentasi teknis untuk kebutuhan profesional."
+                           data-lang-en="Reasonably proficient and able to understand conversations as well as technical documentation for professional needs.">Cukup mahir dan mampu memahami percakapan serta dokumentasi teknis untuk kebutuhan profesional.</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ============================================================
+         9. PROJECTS
+         ============================================================ -->
+    <section id="projects">
+        <h2 data-aos="fade-up" data-lang-en="Projects" data-lang-id="Proyek">Proyek</h2>
+        <div class="project-container">
+
+            <div data-aos="fade-up">
+                <div class="project-card" data-url="https://drive.google.com/file/d/1W8B5yJsVA21P1Lf5ZJ0boSUzlYGeMcgz/view?usp=drivesdk">
+                    <div class="project-img-wrap">
+                        <img src="images/project/universal image/project-keuangan.jpeg" alt="Website Sistem Kasir">
+                        <div class="project-overlay">
+                            <span data-lang-en="View Project" data-lang-id="Lihat Proyek">Lihat Proyek</span>
+                        </div>
+                    </div>
+                    <div class="project-text-box">
+                    <h3 data-lang-id="Website Sistem Kasir" data-lang-en="Cashier System Website">Website Sistem Kasir</h3>
+                    <p class="project-status status-final"><span class="status-dot"></span><span data-lang-id="Selesai" data-lang-en="Completed">Selesai</span></p>
+                    <p data-lang-id="Website kasir berbasis PHP dan MySQL untuk membantu proses transaksi penjualan."
+                       data-lang-en="A PHP and MySQL-based cashier website to help streamline sales transactions.">Website kasir berbasis PHP dan MySQL untuk membantu proses transaksi penjualan.</p>
+                </div>
+                </div>
+            </div>
+            <div data-aos="fade-up" data-aos-delay="100">
+                <div class="project-card" data-url="https://drive.google.com/file/d/1W8B5yJsVA21P1Lf5ZJ0boSUzlYGeMcgz/view?usp=drivesdk">
+                    <div class="project-img-wrap">
+                        <img src="images/project/universal image/project-keuangan.jpeg" alt="Aplikasi Kasir">
+                        <div class="project-overlay">
+                            <span data-lang-en="View Project" data-lang-id="Lihat Proyek">Lihat Proyek</span>
+                        </div>
+                    </div>
+                    <div class="project-text-box">
+                    <h3 data-lang-id="Aplikasi Mobile Kasir" data-lang-en="Mobile Cashier App">Aplikasi Mobile Kasir</h3>
+                    <p class="project-status status-final"><span class="status-dot"></span><span data-lang-id="Selesai" data-lang-en="Completed">Selesai</span></p>
+                    <p data-lang-id="Pengembangan Website Kasir menjadi sebuah aplikasi."
+                       data-lang-en="Development of the cashier website into a mobile application.">Pengembangan Website Kasir menjadi sebuah aplikasi.</p>
+                </div>
+                </div>
+            </div>
+            <div data-aos="fade-up" data-aos-delay="200">
+                <div class="project-card" data-url="https://drive.google.com/file/d/1W8B5yJsVA21P1Lf5ZJ0boSUzlYGeMcgz/view?usp=drivesdk">
+                    <div class="project-img-wrap">
+                        <img src="images/project/universal image/project-pendidikan.jpeg" alt="Education App">
+                        <div class="project-overlay">
+                            <span data-lang-en="View Project" data-lang-id="Lihat Proyek">Lihat Proyek</span>
+                        </div>
+                    </div>
+                    <div class="project-text-box">
+                    <h3 data-lang-id="Aplikasi Pendidikan" data-lang-en="Education App">Aplikasi Pendidikan</h3>
+                    <p class="project-status status-ongoing"><span class="status-dot"></span> <span data-lang-id="Sedang Dikerjakan" data-lang-en="Ongoing">Sedang Dikerjakan</span></p>
+                    <p data-lang-id="Aplikasi Android berbasis Java yang masih dalam tahap pengembangan."
+                       data-lang-en="An Android application built with Java, still under development.">Aplikasi Android berbasis Java yang masih dalam tahap pengembangan.</p>
+                </div>
+                </div>
+            </div>
+            <div data-aos="fade-up" data-aos-delay="300">
+                <div class="project-card" data-url="https://drive.google.com/file/d/1W8B5yJsVA21P1Lf5ZJ0boSUzlYGeMcgz/view?usp=drivesdk">
+                    <div class="project-img-wrap">
+                        <img src="images/project/universal image/project-kesehatan.jpeg" alt="SiPUSAT">
+                        <div class="project-overlay">
+                            <span data-lang-en="View Project" data-lang-id="Lihat Proyek">Lihat Proyek</span>
+                        </div>
+                    </div>
+                    <div class="project-text-box">
+                    <h3 data-lang-id="Aplikasi Puskesmas" data-lang-en="Health Center App">Aplikasi Puskesmas</h3>
+                    <p class="project-status status-upcoming"><span class="status-dot"></span> <span data-lang-id="Rencana Selanjutnya" data-lang-en="Upcoming">Rencana Selanjutnya</span></p>
+                    <p data-lang-id="Aplikasi Android berbasis Java yang akan dikembangkan nantinya."
+                       data-lang-en="An Android application built with Java, planned for future development.">Aplikasi Android berbasis Java yang akan dikembangkan nantinya.</p>
+                </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================================
+         10. INDUSTRIAL VISIT
+         ============================================================ -->
+    <section id="industrial-visit">
+        <h2 data-aos="fade-up" data-lang-en="Industrial Visit" data-lang-id="Kunjungan Industri">Kunjungan Industri</h2>
+        <div class="industrial-container">
+            <div data-aos="fade-up">
+                <div class="industrial-card" data-url="industrial/pt-swsbi.html">
+                    <div class="industrial-img-wrap">
+                        <img src="images/industrial-visit/pt-swsbi/pt-swsbi.jpg" alt="PT Wiring System Sumitomo">
+                        <div class="industrial-overlay">
+                            <span data-lang-en="View Detail" data-lang-id="Lihat Detail">Lihat Detail</span>
+                        </div>
+                    </div>
+                    <div class="industrial-text-box">
+                        <h3>PT Wiring System Sumitomo Batam Indonesia</h3>
+                        <p class="visit-location">Batam, Indonesia</p>
+                        <p class="visit-desc" data-lang-id="Mempelajari proses produksi wiring harness, quality control, budaya kerja industri Jepang, serta penerapan K3."
+                           data-lang-en="Learned about the wiring harness production process, quality control, Japanese industrial work culture, and occupational health and safety (K3) practices.">Mempelajari proses produksi wiring harness, quality control, budaya kerja industri Jepang, serta penerapan K3.</p>
+                    </div>
+                </div>
+            </div>
+            <div data-aos="fade-up" data-aos-delay="100">
+                <div class="industrial-card" data-url="industrial/pt-pgnbatam.html">
+                    <div class="industrial-img-wrap">
+                        <img src="images/industrial-visit/pt-pgnbatam/pt-pgnbatam.jpg" alt="PGN Batam">
+                        <div class="industrial-overlay">
+                            <span data-lang-en="View Detail" data-lang-id="Lihat Detail">Lihat Detail</span>
+                        </div>
+                    </div>
+                    <div class="industrial-text-box">
+                        <h3>PGN Batam</h3>
+                        <p class="visit-location">Batam, Indonesia</p>
+                        <p class="visit-desc" data-lang-id="Mengenal proses distribusi gas bumi dan pemanfaatan teknologi di sektor energi."
+                           data-lang-en="Learned about the natural gas distribution process and the use of technology in the energy sector.">Mengenal proses distribusi gas bumi dan pemanfaatan teknologi di sektor energi.</p>
+                    </div>
+                </div>
+            </div>
+            <div data-aos="fade-up" data-aos-delay="200">
+                <div class="industrial-card" data-url="industrial/rs-awalbrosbatam.html">
+                    <div class="industrial-img-wrap">
+                        <img src="images/industrial-visit/rs-awalbrosbatam/rs-awalbrosbatam.jpg" alt="RS Awal Bros Batam">
+                        <div class="industrial-overlay">
+                            <span data-lang-en="View Detail" data-lang-id="Lihat Detail">Lihat Detail</span>
+                        </div>
+                    </div>
+                    <div class="industrial-text-box">
+                        <h3>RS Awal Bros Batam</h3>
+                        <p class="visit-location">Batam, Indonesia</p>
+                        <p class="visit-desc" data-lang-id="Mempelajari penerapan Sistem Informasi Rumah Sakit dan transformasi digital pelayanan kesehatan."
+                           data-lang-en="Learned about the implementation of Hospital Information Systems and the digital transformation of healthcare services.">Mempelajari penerapan Sistem Informasi Rumah Sakit dan transformasi digital pelayanan kesehatan.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================================
+         11. CONTACT
+         ============================================================ -->
+    <section id="contact">
+        <h2 data-aos="fade-up" data-lang-en="Contact Me" data-lang-id="Hubungi Saya">Hubungi Saya</h2>
+        <div class="contact-photo" data-aos="zoom-in">
+    <img id="contact-profile-img" src="images/profile/main.png" alt="">
+</div>
+        <p  data-aos="fade-up" data-lang-id="Senang Anda berkunjung ke portofolio saya. Tertarik untuk berkolaborasi, mendiskusikan sebuah ide, atau sekadar menyapa? Hubungi saya lewat kanal berikut ya, atau kirim pesan langsung via email di bawah ini!"
+            data-lang-en="Glad to have you visit my portfolio. Interested in collaborating, discussing an idea, or just saying hello? Feel free to reach out through the channels below, or send a direct message via email!">Senang Anda berkunjung ke portofolio saya. Tertarik untuk berkolaborasi, mendiskusikan sebuah ide, atau sekadar menyapa? Hubungi saya lewat kanal berikut ya, atau kirim pesan langsung via email di bawah ini!</p>
+
+            <div class="contact-box" data-aos="fade-up">
+            <textarea id="contact-message" rows="4"
+                      data-placeholder-id="Tulis pesan kamu di sini..."
+                      data-placeholder-en="Write your message here..."
+                      placeholder="Tulis pesan kamu di sini..."></textarea>
+            <button type="button" class="btn contact-send-btn" onclick="sendContactMessage()">
+                <i class="fa-solid fa-paper-plane"></i>
+                <span data-lang-en="Send via Gmail" data-lang-id="Kirim via Gmail">Kirim via Gmail</span>
+            </button>
+        </div>
+
+        <div class="social-icons" data-aos="fade-up">
+            <a href="https://github.com/raja3alsofiandri" target="_blank"><i class="fa-brands fa-github"></i></a>
+            <a href="https://instagram.com/raja3alsofiandri" target="_blank"> <i class="fa-brands fa-instagram"></i></a>
+            <a href="https://linkedin.com/in/raja3alsofiandri" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="mailto:rajaalsofiandri@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+        </div>
+    </section>
+
+    <!-- ============================================================
+         12. CHATBOT WIDGET
+         ============================================================ -->
+    <div id="chatbot-launcher" onclick="toggleChatbot()" data-aos="fade-left" data-aos-duration="1200" data-aos-delay="400">
+        <img src="images/chatbot/dark-closed-1.png" alt="RTA Bot Launcher" id="launcher-img">
+    </div>
+
+    <div id="chatbot-window" class="chatbot-hidden">
+        <div class="chatbot-header">
+            <div class="bot-info">
+                <div class="bot-avatar">
+                    <img src="images/chatbot/chatbot.png" alt="RTA Avatar">
+                </div>
+                <div>
+                    <h4 data-lang-en="RTA Assistant" data-lang-id="RTA Asisten">RTA Asisten</h4>
+                    <p><span class="online-dot"></span> <span data-lang-en="Online" data-lang-id="Online">Online</span></p>
+                </div>
+            </div>
+            <div style="display: flex; gap: 10px; align-items: center;">
+                <button class="close-btn" onclick="toggleChatbot()">&times;</button>
+            </div>
+        </div>
+        <div class="chatbot-messages" id="chatbot-messages">
+            <div class="message bot-msg">
+                <p data-lang-id="Halo! Senang bertemu denganmu. Saya asisten virtual R. Tri Alsofiandri. Ada yang bisa saya bantu? 👋"
+                   data-lang-en="Hi! Nice to meet you. I'm R. Tri Alsofiandri's virtual assistant. How can I help you? 👋">Halo! Senang bertemu denganmu. Saya asisten virtual R. Tri Alsofiandri. Ada yang bisa saya bantu? 👋</p>
+            </div>
+    <div class="chatbot-quick-replies">
+        <button class="quick-btn" onclick="sendQuickMessage('Proyek')">💼 Proyek</button>
+        <button class="quick-btn" onclick="sendQuickMessage('Skills')">🧠 Skills</button>
+        <button class="quick-btn" onclick="sendQuickMessage('Kunjungan Industri')">🏭 Visit</button>
+        <button class="quick-btn" onclick="sendQuickMessage('Kontak')">📞 Kontak</button>
+    </div>
+
+        </div>
+        <div class="chatbot-input-area">
+            <input type="text" id="chatbot-input"
+                data-placeholder-id="Tanya tentang proyek, skill & lainnya..."
+                data-placeholder-en="Ask about projects, skills & more..."
+                placeholder="Tanya tentang proyek, skill & lainnya..." onkeypress="handleKeyPress(event)">
+            <button id="chatbot-send-btn" onclick="sendMessage()">
+              <i class="fa-solid fa-paper-plane"></i>
+            </button>
+        </div>
+    </div>
+
+    <link rel="stylesheet" href="chatbot/chatbot.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script src="chatbot/config.js"></script>
+    <script src="chatbot/chatbot.js"></script>
+    <script src="script.js"></script>
+
+</body>
+</html>
