@@ -4,7 +4,7 @@ Welcome to my personal portfolio website repository! 🚀
 
 ## 🌐 Live Demo
 
-🔗 **[Visit Live Portfolio](https://raja3alsofiandri.github.io/portfolio/)**
+🔗 **[Visit Live Portfolio](https://raja3alsofiandri.github.io/portofolio/)**
 
 ---
 
